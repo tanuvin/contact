@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form | Codelatte.org</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/form.css">
+        <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    </head>
+<body>
+<center>
+    <h1 style="font-family: 'Teko', sans-serif; font-size: 70px;">Contact Form By DoNz | Codelatte.org</h1>
+</center>
+<div class="my-5"></div>
+<div id="particles-js">
+<section class="container">
+    <p class="pb-4"></p>
+    <div class="row">
+        <div class="col-lg-5 mb-4">
+            <div class="card">
+                <div class="card-header p-0">
+                    <div class="bg">
+                        <h3><i class="fa fa-envelope"></i> Contact Us :</h3>
+                        <p class="m-0">We'll write rarely, but only the best content.</p>
+                    </div>
+                </div>
+                <div class="card-body p-3">
+                    <div class="form-group">
+                        <label><i class="fa fa-user text-primary"></i> Your name</label>
+                        <div class="input-group">
+                            <div class="input-group-addon rounded-2"></div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fa fa-envelope text-primary"></i> Your email</label>
+                        <div class="input-group mb-2 mb-sm-0">
+                            <div class="input-group-addon"></div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fa fa-tag prefix text-primary"></i> Service</label>
+                        <div class="input-group mb-2 mb-sm-0">
+                            <div class="input-group-addon"></div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fa fa-pencil text-primary"></i> Message</label>
+                        <div class="input-group mb-2 mb-sm-0">
+                            <div class="input-group-addon"></div>
+                            <textarea class="form-control" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-block rounded-0 py-2"><i class="fa fa-paper-plane"></i> Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-7">
+            <div class="mb-4">
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a class="icon px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-map-marker"></i></a>
+                    <p>Purwadadi Timur,Subang<br> Indonesia</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="icon px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-phone"></i></a>
+                    <p>+ 01 234 567 89, <br> Mon - Fri, 8:00-22:00</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="icon px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-envelope"></i></a>
+                    <p>info@gmail.com <br> sale@gmail.com</p>
+                </div>
+            </div>
+        <div id="maps" class="col-lg-7">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1178.6708338625388!2d107.69161632595083!3d-6.450449318836345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e693feb3c8669ed%3A0xe1b5235884b5e5ae!2sAl+Mu&#39;awwanah!5e0!3m2!1sid!2sid!4v1532890413014" width="600" height="350" frameborder="0" style="border:0; border-radius: 6px; box-shadow: 2px 2px 4px black;" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class="footer bg-dark text-white">
+        <div class="bg">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-6 col-lg-7">
+                        <h4 class="mb-0 white-text">Get connected with us on social networks!</h4>
+                    </div>
+                    <div class="col-md-6 col-lg-5 text-right">
+                        <a title="facebook" href="#"><i id="icon" class="fa fa-facebook-square white-text mr-lg-4 fa-2x"> </i></a>
+                        <a title="twitter" href="#"><i id="icon" class="fa fa-twitter-square white-text mr-lg-4 fa-2x"> </i></a>
+                        <a title="Google Plus" href="#"><i id="icon" class="fa fa-google-plus-square white-text mr-lg-4 fa-2x"> </i></a>
+                        <a title="linkedin" href="#"><i id="icon" class="fa fa-linkedin-square white-text mr-lg-4 fa-2x"> </i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      particlesJS.load('particles-js','particles.json', function() {
+        console.log('particles.json loaded...');
+      })
+</body>
+</html>
